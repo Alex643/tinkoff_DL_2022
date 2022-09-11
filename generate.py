@@ -5,8 +5,6 @@
 
 # ## 0.0. Input params
 
-
-
 # read input params
 input_params = {}
 with open('cfg.txt', encoding = 'utf-8', mode = 'r') as file:
@@ -18,7 +16,6 @@ with open('cfg.txt', encoding = 'utf-8', mode = 'r') as file:
 
 
 # ## 0.1. Libs
-
 
 
 import torch
@@ -128,7 +125,6 @@ torch.backends.cudnn.deterministic = True
 # ## 1.1. Text preproc
 
 
-
 if len(input_params['prefix']) == 0:
     text = ''
 else:
@@ -150,8 +146,6 @@ fields = {
 
 
 # # 2. Инициализация модели
-
-
 
 class Decoder(nn.Module):
     def __init__(self, 
