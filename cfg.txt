@@ -1,0 +1,4 @@
+input_dir::C:/Users/Alex/Desktop/pytorch/tinkoff/data/
+model::C:/Users/Alex/Desktop/pytorch/tinkoff/data/model.pkl
+prefix::
+length::10
